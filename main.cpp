@@ -8,7 +8,7 @@ int main() {
 
   char board[9][9];
 
-  load_board("medium.dat", board);
+  load_board("board.dat", board);
   if (solve_board(board)) {
     cout << "The board has a solution:" << endl << endl;
     display_board(board);
