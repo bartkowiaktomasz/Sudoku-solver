@@ -1,6 +1,5 @@
 # Sudoku-solver
-Brute-force, backtracking (recursive) search sudoku solver in C++.
-The solver was part of an assignment on the C++ course at ICL (see specification.pdf)
+Brute-force, backtracking (recursive) search sudoku solver in C++. The solver was part of an assignment on the C++ course at ICL (see specification.pdf).
 
 To solve sudoku, just replace a board.dat file with initial numbers, where empty cells are represented as dots. Example .dat file:
 
