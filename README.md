@@ -17,3 +17,6 @@ To solve sudoku, just replace a board.dat file with initial numbers, where empty
 
 Example boards are: `easy.dat`, `medium.dat` and `mystery1.dat`, `mystery2.dat`, `mystery3.dat`.
 Usage: compile with `make` and then type `./sudoku`.
+
+### Stack smashing
+In case of Segmentation fault, try increasing the stack by `ulimit -s unlimited`.
